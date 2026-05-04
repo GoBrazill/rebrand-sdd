@@ -1,4 +1,5 @@
 import Header from "./components/Header"
+import Hero from "./components/Hero"
 import GlobalStyle from "./styles/GlobalStyle"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <GlobalStyle />
       <Header />   
+      <Hero />
     </>
   )
 }

@@ -19,15 +19,34 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        display: flex;
-        justify-content: center;
-        
         height: 100vh;
         padding-top: 60px;
 
         background: linear-gradient(120deg, #002366 10%, #003599 60%, #0046CC 89%);
     }
+
+    #root{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
     
+    h1{
+        font-size: 5rem;
+        color: var(--clr-light-text);
+    }
+
+    h2 {
+        font-size: 3rem;
+        color: var(--clr-light-text);
+    }
+
+    h3 {
+        font-size: 2.25rem;
+        color: var(--clr-light-text);
+    }
+
     p {
         color: var(--clr-light-text);
     }

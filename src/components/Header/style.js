@@ -32,7 +32,10 @@ export const StyledNav = styled.nav`
 
     a {
         padding: 12px;
+
+        font-weight: 600;
         border-radius: 2.5px;
+        transition: 300ms;
     }
 
     a:hover {
@@ -46,11 +49,13 @@ export const StyledButton = styled.button`
     height: fit-content;
 
     font-size: 18px;
+    font-weight: 600;
 
     color: var(--clr-light-text);
     background-color: transparent;
     border-radius: 2.5px;
 
+    transition: 300ms;
     &:hover {
         background-color: #08142B;
     }
