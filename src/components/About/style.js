@@ -6,7 +6,7 @@ export const StyledSection = styled.section`
     flex-direction: column;
     gap: 60px;
 
-    width: 100vw;
+    width: 100%;
 `
 
 export const StyledTitleWrapper = styled.div`
