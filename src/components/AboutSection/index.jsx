@@ -4,7 +4,7 @@ import imageOffer from '../../assets/images/image-offer.webp'
 import imagePodium from '../../assets/images/image-podium.webp'
 
 
-export default function About() {
+export default function AboutSection() {
 
     return (
         <StyledSection>

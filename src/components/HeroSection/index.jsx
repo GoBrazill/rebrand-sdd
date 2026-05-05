@@ -1,6 +1,6 @@
 import { StyledButton, StyledSectionHero } from "./style";
 
-export default function Hero() {
+export default function HeroSection() {
 
     return (
         <StyledSectionHero>

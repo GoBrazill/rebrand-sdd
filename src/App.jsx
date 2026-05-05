@@ -1,6 +1,6 @@
-import About from "./components/About"
 import Header from "./components/Header"
-import Hero from "./components/Hero"
+import HeroSection from "./components/HeroSection"
+import AboutSection from "./components/AboutSection"
 import Line from "./components/Line"
 import GlobalStyle from "./styles/GlobalStyle"
 
@@ -10,9 +10,9 @@ function App() {
     <>
       <GlobalStyle />
       <Header />   
-      <Hero />
+      <HeroSection />
       <Line />    
-      <About />
+      <AboutSection />
       <Line />    
     </>
   )
