@@ -31,6 +31,7 @@ export const StyledButton = styled.button`
     font-size: 1.5rem;
     font-weight: 600;
     
+    cursor: pointer;
     color: var(--clr-light-text);
     background-color: var(--clr-dark-blue);
     border-radius: 5px;
