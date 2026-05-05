@@ -19,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body{
-        height: 100vh;
+        min-height: 100vh;
         padding-top: 60px;
 
         background: linear-gradient(120deg, #002366 10%, #003599 60%, #0046CC 89%);
@@ -44,7 +44,7 @@ const GlobalStyle = createGlobalStyle`
 
     h3 {
         font-size: 2.25rem;
-        color: var(--clr-light-text);
+        color: #A8C1F0;
     }
 
     p {
