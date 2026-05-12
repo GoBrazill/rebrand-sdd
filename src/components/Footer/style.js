@@ -10,6 +10,11 @@ export const StyledFooter = styled.footer`
         font-size: 1.125rem;
         color: #bbb;
     }
+
+    img {
+        width: 48px;
+        height: 48px;
+    }
 `
 
 export const StyledTopWrapper = styled.div`
