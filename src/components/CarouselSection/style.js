@@ -21,6 +21,7 @@ export const StyledTitleWrapper = styled.div`
 
 export const StyledCardWrapper = styled.div`
     display: flex;
+    justify-content: center;
     gap: 60px;
     overflow: hidden;
 `
